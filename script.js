@@ -18,7 +18,7 @@ let songs2;
 
 
 async function fetchSongFolder() {
-    let page = await fetch("/song_folder");
+    let page = await fetch("https://github.com/abhishekshelar126200/musicmingle/song_folder");
     let response = await page.text();
     // console.log(response);
 
