@@ -1,5 +1,7 @@
 console.log('hello Javascript')
 
+ document.querySelector(".left").style.left=0;
+
 async function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = Math.floor(seconds % 60);
