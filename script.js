@@ -1,4 +1,4 @@
-console.log('hello Javascript')
+console.log('hello1 Javascript')
 
  document.querySelector(".left").style.left=0;
 
